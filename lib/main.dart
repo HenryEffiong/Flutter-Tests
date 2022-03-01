@@ -22,8 +22,8 @@ class TestingApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         routes: {
-          HomePage.routeName: (context) => HomePage(),
-          FavoritesPage.routeName: (context) => FavoritesPage(),
+          HomePage.routeName: (context) => const HomePage(),
+          FavoritesPage.routeName: (context) => const FavoritesPage(),
         },
         initialRoute: HomePage.routeName,
       ),
